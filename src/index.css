@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply min-h-screen bg-cover bg-center bg-no-repeat;
+    background-image: url('public/Ellipse 5.png'), url('public/Ellipse 6.png');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-blend-mode: normal;
+}
